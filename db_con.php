@@ -4,7 +4,7 @@ session_start();
 const HOSTNAME = 'localhost'; // server navn
 const MYSQLUSER = 'root'; // super bruger (remote har man særskilte database brugere)
 const MYSQLPASS = 'root'; // bruger password
-const MYSQLDB = '3semester_eksamen'; // database navn 
+const MYSQLDB = 'localhost'; // database navn 
 
 
 $con = new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
